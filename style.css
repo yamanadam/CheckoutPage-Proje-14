@@ -4,6 +4,10 @@
   /* box-sizing: border-box; */
 }
 
+.navbar {
+  background-color: rgba(255, 166, 0, 0.819);
+}
+
 .number button {
   width: 18px;
 
@@ -25,6 +29,7 @@
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 0.4rem;
+  min-width: 2rem;
 }
 
 i {
@@ -53,4 +58,11 @@ i {
 .col-md-4 p {
   display: flex;
   justify-content: space-between;
+}
+
+#check {
+  accent-color: orange;
+}
+
+button.minus .disabled {
 }

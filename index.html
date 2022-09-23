@@ -21,7 +21,7 @@
   </head>
   <body>
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg bg-info text-info">
+    <nav class="navbar navbar-expand-lg text-info">
       <div class="container">
         <a class="navbar-brand" href="#"
           ><img
@@ -45,6 +45,15 @@
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Female</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Male</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Child</a>
+            </li>
 
             <li class="nav-item dropdown">
               <a
@@ -57,9 +66,9 @@
                 Category
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Female</a></li>
-                <li><a class="dropdown-item" href="#">Male</a></li>
-                <li><a class="dropdown-item" href="#">Child</a></li>
+                <li><a class="dropdown-item" href="#">Sport</a></li>
+                <li><a class="dropdown-item" href="#">Accessory</a></li>
+                <li><a class="dropdown-item" href="#">Classic</a></li>
                 <li><a class="dropdown-item" href="#">Shoes</a></li>
               </ul>
             </li>
@@ -81,12 +90,12 @@
 
     <!-- Main -->
     <main class="container">
-      <div class="row bg-light p-4">
+      <div class="product row bg-light p-4">
         <h3>My Basket</h3>
         <div class="col-sm-12 col-md-8 border border-secondary">
           <div class="">
             <div class="d-flex justify-content-between align-items-center p-4">
-              <input type="checkbox" name="checbox" id="check" />
+              <input type="checkbox" name="checbox" id="check" checked />
               <img
                 src="./img/1_org_zoom.webp"
                 class="thumbnail"
@@ -103,13 +112,15 @@
                 <span class="quantity">1</span>
                 <button class="plus">+</button>
               </div>
-              <span class="product-price">119.,99</span>
+              <span class="product-price">99.90</span>
+              <span class="product-price subt">99.90</span>
+
               <i class="fa-solid fa-trash"></i>
             </div>
           </div>
           <div class="">
             <div class="d-flex justify-content-between align-items-center p-4">
-              <input type="checkbox" name="checbox" id="check" />
+              <input type="checkbox" name="checbox" id="check" checked />
               <img
                 src="./img/ayakkabı.webp"
                 class="thumbnail"
@@ -126,13 +137,14 @@
                 <span class="quantity">1</span>
                 <button class="plus">+</button>
               </div>
-              <span class="product-price">319,99</span>
+              <span class="product-price">299.99</span>
+              <span class="product-price subt">299.99</span>
               <i class="fa-solid fa-trash"></i>
             </div>
           </div>
           <div class="">
             <div class="d-flex justify-content-between align-items-center p-4">
-              <input type="checkbox" name="checbox" id="check" />
+              <input type="checkbox" name="checbox" id="check" checked />
               <img
                 src="./img/dolap.webp"
                 class="thumbnail"
@@ -149,18 +161,20 @@
                 <span class="quantity">1</span>
                 <button class="plus">+</button>
               </div>
-              <span class="product-price">600,00</span>
+              <span class="product-price">600.00</span>
+              <span class="product-price subt">600.00</span>
+
               <i class="fa-solid fa-trash"></i>
             </div>
           </div>
         </div>
         <div class="col-sm-12 col-md-4 p-4">
-          <p>Subtotal <span class="subtotal">10</span></p>
+          <p>Subtotal <span class="subtotal">999.89</span></p>
 
-          <p>Shipping<span class="shipping">10</span></p>
-          <p>Tax(%8) <span class="tax">10</span></p>
+          <p>Shipping<span class="shipping">30</span></p>
+          <p>Tax(%8) <span class="tax">79.99</span></p>
           <hr />
-          <p>Total <span class="total">10</span></p>
+          <p>Total <span class="lastTotal">1079.88</span></p>
           <h6>Confirm Basket</h6>
         </div>
       </div>
